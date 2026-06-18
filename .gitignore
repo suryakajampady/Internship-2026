@@ -1,0 +1,17 @@
+# .gitignore — put this file in your project root
+# Operating system files
+.DS_Store # macOS finder metadata
+Thumbs.db # Windows thumbnail cache
+# Python projects
+__pycache__/
+*.pyc
+venv/ # Virtual environment (100s of MB — never commit this)
+.env # Environment variables — contains passwords!
+# Node.js projects
+node_modules/ # Dependencies — install from package.json instead
+dist/ # Build output
+# VS Code settings
+.vscode/ # Optional — some teams share these settings
+# Log files
+*.log
+*.tmp
