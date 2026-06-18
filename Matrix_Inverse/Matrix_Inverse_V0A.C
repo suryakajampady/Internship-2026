@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a[10][10], b[10][10], c[10][10], d[10][10], i, j, k, n;
+    int a[100][100], b[10][10], c[10][10], d[10][10], i, j, k, n;
     float det = 0;
 
     printf("Enter the order of the matrix: ");
